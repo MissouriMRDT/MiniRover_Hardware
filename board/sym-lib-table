@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "template")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/Template_Hardware/lib/Symbols/template.kicad_sym")(options "")(descr ""))
+  (lib (name "MiniRoverBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Symbols/MiniRoverBoard.kicad_sym")(options "")(descr ""))
 )

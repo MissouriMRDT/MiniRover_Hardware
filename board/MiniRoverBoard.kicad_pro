@@ -25,15 +25,11 @@
     "equivalence_files": []
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "template"
-    ],
-    "pinned_symbol_libs": [
-      "template"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "template.kicad_pro",
+    "filename": "MiniRoverBoard.kicad_pro",
     "version": 3
   },
   "net_settings": {
