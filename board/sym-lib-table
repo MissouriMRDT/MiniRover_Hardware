@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 7)
   (lib (name "MiniRoverBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Symbols/MiniRoverBoard.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/gtram/OneDrive/MRDT/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library_0")(type "KiCad")(uri "C:/Users/gtram/OneDrive/MRDT/New_Library_0.kicad_sym")(options "")(descr ""))
 )
