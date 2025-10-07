@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid fbd9c71c-f200-4aab-a303-9f269bc9de13)
+	(uuid "fbd9c71c-f200-4aab-a303-9f269bc9de13")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 115.57 67.31)
+		(size 44.45 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "790be9a8-4a0a-446c-a87f-40bdf4df72de")
+		(property "Sheetname" "MCU"
+			(at 115.57 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 115.57 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 166.37 66.04)
+		(size 36.83 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd366cf6-4ba4-4d0b-8257-15ce8ef3829f")
+		(property "Sheetname" "Power"
+			(at 166.37 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mini-Rover.kicad_sch"
+			(at 166.37 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
