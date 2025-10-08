@@ -1,6 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "MiniRoverBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Symbols/MiniRoverBoard.kicad_sym")(options "")(descr ""))
-  (lib (name "New_Library")(type "KiCad")(uri "C:/Users/gtram/OneDrive/MRDT/New_Library.kicad_sym")(options "")(descr ""))
-  (lib (name "New_Library_0")(type "KiCad")(uri "C:/Users/gtram/OneDrive/MRDT/New_Library_0.kicad_sym")(options "")(descr ""))
+  (lib (name "NCP51313ADR2G")(type "KiCad")(uri "C:/Users/aronc/Downloads/LIB_NCP51313ADR2G/NCP51313ADR2G/KiCad/NCP51313ADR2G.kicad_sym")(options "")(descr ""))
 )
