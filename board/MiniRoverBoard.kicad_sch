@@ -6,6 +6,48 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 50.8 69.85)
+		(size 48.26 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00110569-a72a-472d-86d3-551dc58f7e96")
+		(property "Sheetname" "OpAmp"
+			(at 50.8 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OpAmp.kicad_sch"
+			(at 50.8 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 115.57 67.31)
 		(size 44.45 40.64)
 		(exclude_from_sim no)
