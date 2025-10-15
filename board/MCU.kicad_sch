@@ -3557,16 +3557,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 154.94) (xy 123.19 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d16dd03-8fa0-4ae3-9c03-26eaa08abee2")
-	)
-	(wire
-		(pts
 			(xy 261.62 93.98) (xy 262.89 93.98)
 		)
 		(stroke
@@ -3854,16 +3844,6 @@
 			(type default)
 		)
 		(uuid "a82d906b-e91d-4ed1-ad51-7c4b43236db3")
-	)
-	(wire
-		(pts
-			(xy 123.19 139.7) (xy 123.19 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d3ea32-4fc8-4dcd-8060-4042da98d2b0")
 	)
 	(wire
 		(pts
@@ -5339,7 +5319,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5k"
 			(at 31.75 144.78 90)
 			(effects
 				(font
@@ -5616,7 +5596,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "5k"
 			(at 39.37 158.7499 0)
 			(effects
 				(font
@@ -5662,76 +5642,6 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dfdcd8b-ced9-4b5b-bcd0-ca7551abe2b2")
-		(property "Reference" "C6"
-			(at 127 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 127 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.1552 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66291a9a-c8bf-4f20-b783-d315b493b81e")
-		)
-		(pin "2"
-			(uuid "20e4b664-db3a-4e34-bff6-0edb2dd28de3")
-		)
-		(instances
-			(project ""
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6231,7 +6141,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 104.14 170.1799 0)
 			(effects
 				(font
@@ -6477,7 +6387,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47u"
 			(at 111.76 152.3999 0)
 			(effects
 				(font
@@ -7262,7 +7172,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 50.8 151.1299 0)
 			(effects
 				(font
@@ -7332,7 +7242,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 55.88 158.7499 0)
 			(effects
 				(font
@@ -7378,72 +7288,6 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1b39b44-0928-4892-8fa1-80e18147bfa8")
-		(property "Reference" "#PWR036"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22449ec1-22f5-4b99-9e60-7522443d7edc")
-		)
-		(instances
-			(project "MiniRoverBoard"
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8001,7 +7845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "150n"
 			(at 40.64 172.7199 0)
 			(effects
 				(font
