@@ -1005,7 +1005,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:Molex_uF_D_10"
+		(symbol "MRDT_Connectors:Molex_SL_09"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1020,16 +1020,16 @@
 					)
 				)
 			)
-			(property "Value" "Molex_uF_D_10"
-				(at 1.27 26.67 0)
+			(property "Value" "Molex_SL_09"
+				(at 1.27 24.13 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_10_Horizontal"
-				(at 0 12.7 0)
+			(property "Footprint" ""
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1038,7 +1038,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 12.7 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1064,9 +1064,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "Molex_uF_D_10_0_1"
+			(symbol "Molex_SL_09_0_1"
 				(rectangle
-					(start 0 25.4)
+					(start 0 22.86)
 					(end 2.54 0)
 					(stroke
 						(width 0)
@@ -1077,9 +1077,9 @@
 					)
 				)
 			)
-			(symbol "Molex_uF_D_10_1_1"
+			(symbol "Molex_SL_09_1_1"
 				(pin input line
-					(at -5.08 24.13 0)
+					(at -5.08 21.59 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1097,7 +1097,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 21.59 0)
+					(at -5.08 19.05 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1115,7 +1115,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 19.05 0)
+					(at -5.08 16.51 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1133,7 +1133,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 16.51 0)
+					(at -5.08 13.97 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1151,7 +1151,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 13.97 0)
+					(at -5.08 11.43 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1169,7 +1169,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 11.43 0)
+					(at -5.08 8.89 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1187,7 +1187,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 8.89 0)
+					(at -5.08 6.35 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1205,7 +1205,7 @@
 					)
 				)
 				(pin input line
-					(at -5.08 6.35 0)
+					(at -5.08 3.81 0)
 					(length 5.08)
 					(name "~"
 						(effects
@@ -1223,24 +1223,6 @@
 					)
 				)
 				(pin input line
-					(at -5.08 3.81 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -5.08 1.27 0)
 					(length 5.08)
 					(name "~"
@@ -1250,7 +1232,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3156,6 +3138,12 @@
 		(uuid "3ecf3610-13cb-42ac-b8cb-4ebb37851ec2")
 	)
 	(junction
+		(at 123.19 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "674d22b9-c05e-4759-bb5d-3d4c1473e21e")
+	)
+	(junction
 		(at 123.19 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3198,12 +3186,6 @@
 		(uuid "e2d0d440-cad8-464c-a663-69baffbfe280")
 	)
 	(junction
-		(at 137.16 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7c758c4-ee68-4e32-b1c4-9087d09d6b13")
-	)
-	(junction
 		(at 101.6 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3214,6 +3196,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb7190ba-87ef-457c-8128-cd9b39f908e8")
+	)
+	(no_connect
+		(at 157.48 130.81)
+		(uuid "995d7481-1878-4933-b8e3-4be647d713df")
 	)
 	(wire
 		(pts
@@ -3317,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 168.91) (xy 137.16 139.7)
+			(xy 123.19 168.91) (xy 123.19 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3587,7 +3573,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 173.99) (xy 129.54 173.99)
+			(xy 101.6 173.99) (xy 115.57 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3707,23 +3693,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 180.34) (xy 137.16 180.34)
+			(xy 114.3 180.34) (xy 123.19 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e93d79a-bbcb-48a1-8de9-d7a942867376")
-	)
-	(wire
-		(pts
-			(xy 137.16 139.7) (xy 123.19 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ec65ce1-2e51-4d2f-87e5-c2ced569675b")
 	)
 	(wire
 		(pts
@@ -3777,7 +3753,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 180.34) (xy 137.16 184.15)
+			(xy 123.19 180.34) (xy 123.19 184.15)
 		)
 		(stroke
 			(width 0)
@@ -3807,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 180.34) (xy 137.16 179.07)
+			(xy 123.19 180.34) (xy 123.19 179.07)
 		)
 		(stroke
 			(width 0)
@@ -4177,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 172.72) (xy 101.6 173.99)
+			(xy 101.6 173.99) (xy 101.6 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4941,7 +4917,7 @@
 	)
 	(global_label "ESC_PWR"
 		(shape output)
-		(at 137.16 184.15 270)
+		(at 123.19 184.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4951,7 +4927,7 @@
 		)
 		(uuid "c2018048-adc5-4c16-8684-072c6c29286d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 195.7227 90)
+			(at 123.19 195.7227 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6248,7 +6224,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 134.62 173.99 0)
+		(at 120.65 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6257,7 +6233,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e66c64e-3835-4469-a70a-a1e0e9e693f6")
 		(property "Reference" "Q1"
-			(at 140.97 172.7199 0)
+			(at 127 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6266,7 +6242,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 140.97 175.2599 0)
+			(at 127 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 171.45 0)
+			(at 125.73 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6284,7 +6260,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 134.62 186.69 0)
+			(at 120.65 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6293,7 +6269,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 134.62 173.99 0)
+			(at 120.65 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6278,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 134.62 191.135 0)
+			(at 120.65 191.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6287,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 134.62 193.04 0)
+			(at 120.65 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6296,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 134.62 189.23 0)
+			(at 120.65 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,6 +6673,95 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_09")
+		(at 33.02 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af7e1ff9-9a57-40b7-810f-e6a15f66d432")
+		(property "Reference" "Conn5"
+			(at 31.75 34.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Molex_SL_09"
+			(at 31.75 36.83 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "09b621f0-af9b-4098-b51b-83af52f9bc52")
+		)
+		(pin "5"
+			(uuid "513704af-b686-48b2-9891-0dd3315d6511")
+		)
+		(pin "4"
+			(uuid "94508f05-9c62-4e8b-bb42-d22e4234f2d8")
+		)
+		(pin "1"
+			(uuid "9152279d-1a3c-47c5-80ad-221ed6459431")
+		)
+		(pin "3"
+			(uuid "601ec136-3d9e-41d5-880b-4a9416fa75c1")
+		)
+		(pin "8"
+			(uuid "425970c3-f0b7-4fea-bb99-7427249a7629")
+		)
+		(pin "6"
+			(uuid "de7d5df2-d450-4a1f-a8ce-1a5d0ee822b5")
+		)
+		(pin "9"
+			(uuid "713b6b49-0e45-435b-be22-d3215afd46c3")
+		)
+		(pin "7"
+			(uuid "8fb50937-3434-4d93-bf8a-847d13ca77f5")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "Conn5")
 					(unit 1)
 				)
 			)
@@ -7631,98 +7696,6 @@
 			(project ""
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_uF_D_10")
-		(at 33.02 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb40789b-213c-4964-b3a1-8b595b0342ec")
-		(property "Reference" "Conn1"
-			(at 31.75 31.75 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Molex_uF_D_10"
-			(at 31.75 34.29 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_uF_D_10_Horizontal"
-			(at 33.02 49.53 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 49.53 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 33.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "e96b9326-3841-4d70-b792-e45f8419659a")
-		)
-		(pin "9"
-			(uuid "cbdeae61-d645-45fd-bf79-bad8ef42a620")
-		)
-		(pin "1"
-			(uuid "06dad1c1-966c-4c98-b9ec-68b1d46c564a")
-		)
-		(pin "5"
-			(uuid "89806712-f8ed-49ca-9194-302fe1eadc01")
-		)
-		(pin "6"
-			(uuid "f883973d-f89d-42ec-955c-5c3c6d22988d")
-		)
-		(pin "2"
-			(uuid "b07ddb07-bda6-4ac3-8a25-696cfb67e593")
-		)
-		(pin "3"
-			(uuid "31e967f0-a9e0-4d9e-9716-ba9a41e19a25")
-		)
-		(pin "4"
-			(uuid "fa69f627-9e61-48df-82c6-73ca62f4bd16")
-		)
-		(pin "8"
-			(uuid "44fe83f1-32bf-44de-86f7-84af05e92a0e")
-		)
-		(pin "10"
-			(uuid "b76366f0-3454-4635-b903-0f2c437febcc")
-		)
-		(instances
-			(project ""
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "Conn1")
 					(unit 1)
 				)
 			)

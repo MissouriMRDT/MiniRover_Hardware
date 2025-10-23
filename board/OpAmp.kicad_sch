@@ -759,6 +759,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LM358DT"
+		(exclude_from_sim no)
+		(at 69.088 146.558 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(href "https://www.digikey.com/en/products/detail/stmicroelectronics/LM358DT/591693")
+		)
+		(uuid "93e1bd13-e4e1-474e-83ce-f6fbd39a0c3c")
+	)
 	(junction
 		(at 172.72 133.35)
 		(diameter 0)
