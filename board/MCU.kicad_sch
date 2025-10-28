@@ -838,6 +838,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Connectors:Molex_SL_05"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Molex_SL_05"
+				(at 1.27 13.97 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOLEX SL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_SL_05_0_1"
+				(rectangle
+					(start 0 12.7)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_SL_05_1_1"
+				(pin input line
+					(at -5.08 11.43 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 8.89 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 6.35 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Connectors:Molex_SL_09"
 			(pin_names
 				(offset 1.016)
@@ -3265,6 +3431,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 45.72) (xy 49.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d59595d-dad6-4bbb-94ba-7c4ed3823cec")
+	)
+	(wire
+		(pts
 			(xy 85.09 153.67) (xy 80.01 153.67)
 		)
 		(stroke
@@ -3335,13 +3511,23 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 45.72) (xy 252.73 45.72)
+			(xy 217.17 45.72) (xy 252.73 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35e788f8-769f-46f6-8a10-cf512b79ff4a")
+	)
+	(wire
+		(pts
+			(xy 49.53 43.18) (xy 33.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36174ee8-eb91-40ea-a7b0-36578647dd21")
 	)
 	(wire
 		(pts
@@ -3385,16 +3571,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 33.02 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1c4a7a-36c0-4abb-9399-141d1b0018e6")
-	)
-	(wire
-		(pts
 			(xy 43.18 85.09) (xy 43.18 86.36)
 		)
 		(stroke
@@ -3435,16 +3611,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 48.26) (xy 49.53 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef8f3c4-7528-4fdc-b1a2-2bd78e592fe3")
-	)
-	(wire
-		(pts
 			(xy 116.84 175.26) (xy 100.33 175.26)
 		)
 		(stroke
@@ -3462,16 +3628,6 @@
 			(type default)
 		)
 		(uuid "502b15e9-a2f0-4e37-8bc9-e3020ad366de")
-	)
-	(wire
-		(pts
-			(xy 33.02 45.72) (xy 49.53 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "527a02d7-63ac-47b8-ab65-1b8ca168b8e0")
 	)
 	(wire
 		(pts
@@ -3575,6 +3731,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2eb008-ccb2-48b6-9345-d58bca450532")
+	)
+	(wire
+		(pts
 			(xy 80.01 153.67) (xy 80.01 148.59)
 		)
 		(stroke
@@ -3615,13 +3781,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 45.72) (xy 49.53 44.45)
+			(xy 33.02 48.26) (xy 39.37 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6880d588-1bc4-4cf8-a47e-11c0e84a0385")
+		(uuid "682d86a7-2aad-4e99-99bd-34048de9ebc1")
 	)
 	(wire
 		(pts
@@ -3692,6 +3858,16 @@
 			(type default)
 		)
 		(uuid "9ad56db5-6f7d-4e67-99be-8f66caf0268a")
+	)
+	(wire
+		(pts
+			(xy 237.49 48.26) (xy 252.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dbd1136-4cbd-474d-a479-fce0090137fa")
 	)
 	(wire
 		(pts
@@ -3865,16 +4041,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 48.26) (xy 49.53 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c57a6a7c-ac5f-4a88-97f7-f359111743c9")
-	)
-	(wire
-		(pts
 			(xy 257.81 99.06) (xy 257.81 100.33)
 		)
 		(stroke
@@ -3892,6 +4058,16 @@
 			(type default)
 		)
 		(uuid "c7b0aad9-41d7-424f-9d38-0904c94368e3")
+	)
+	(wire
+		(pts
+			(xy 234.95 43.18) (xy 241.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a4aa85-b281-448c-bb89-90afcb9fca16")
 	)
 	(wire
 		(pts
@@ -3985,6 +4161,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 40.64) (xy 241.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deacbade-4061-462c-b4f7-737934bb86e2")
+	)
+	(wire
+		(pts
 			(xy 251.46 35.56) (xy 251.46 38.1)
 		)
 		(stroke
@@ -4025,6 +4211,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 43.18) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0532b45-4884-4a0a-90a1-0dd9f63146da")
+	)
+	(wire
+		(pts
 			(xy 114.3 153.67) (xy 116.84 153.67)
 		)
 		(stroke
@@ -4045,7 +4241,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 48.26) (xy 251.46 45.72)
+			(xy 217.17 46.99) (xy 217.17 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4055,7 +4251,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 252.73 43.18 180)
+		(at 234.95 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4065,7 +4261,7 @@
 		)
 		(uuid "011e1bb9-599c-4d56-9595-7b21e7093592")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.1259 43.18 0)
+			(at 227.3459 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,6 +4315,28 @@
 			)
 		)
 	)
+	(global_label "ENCODER_PWN_J2"
+		(shape input)
+		(at 219.71 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "102b4ef0-403a-45f6-9b0c-a026bb5295e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.7916 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MTDO"
 		(shape input)
 		(at 201.93 34.29 180)
@@ -4141,9 +4359,9 @@
 			)
 		)
 	)
-	(global_label "GPIO 4"
+	(global_label "C"
 		(shape output)
-		(at 38.1 43.18 0)
+		(at 39.37 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4153,7 +4371,7 @@
 		)
 		(uuid "19c483a5-a6ff-4d23-a552-331260c1fe6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7376 43.18 0)
+			(at 43.6252 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4381,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 6"
+	(global_label "PIN_2"
 		(shape input)
 		(at 97.79 62.23 180)
 		(fields_autoplaced yes)
@@ -4175,7 +4393,7 @@
 		)
 		(uuid "1c641b4a-1f64-487e-b018-f6e1df574c5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1524 62.23 0)
+			(at 89.4224 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4405,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 252.73 40.64 180)
+		(at 234.95 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4197,7 +4415,7 @@
 		)
 		(uuid "245c9706-cecc-4ce5-8f44-3c7b06dd517d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0654 40.64 0)
+			(at 227.2854 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4425,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 5"
+	(global_label "PIN_1"
 		(shape input)
 		(at 38.1 50.8 0)
 		(fields_autoplaced yes)
@@ -4219,7 +4437,7 @@
 		)
 		(uuid "292faa52-f31d-4821-8469-68b82732a2f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7376 50.8 0)
+			(at 46.4676 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,6 +4469,28 @@
 			)
 		)
 	)
+	(global_label "SERVO_PWN_J3"
+		(shape output)
+		(at 218.44 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e418d48-3267-48ae-abda-fe504539a96c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.243 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC_Enable"
 		(shape output)
 		(at 154.94 67.31 0)
@@ -4273,7 +4513,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 9"
+	(global_label "PIN_5"
 		(shape input)
 		(at 97.79 69.85 180)
 		(fields_autoplaced yes)
@@ -4285,7 +4525,7 @@
 		)
 		(uuid "3208e746-9fc3-4484-a247-45173d643ee1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1524 69.85 0)
+			(at 89.4224 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4535,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 6"
+	(global_label "PIN_2"
 		(shape input)
 		(at 38.1 53.34 0)
 		(fields_autoplaced yes)
@@ -4307,7 +4547,7 @@
 		)
 		(uuid "334cec75-e037-4955-ab45-c02e24b7c228")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7376 53.34 0)
+			(at 46.4676 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,6 +4601,28 @@
 			)
 		)
 	)
+	(global_label "OLED_PINOUT"
+		(shape output)
+		(at 237.49 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36d3327a-721a-4923-bd40-a82af1f79313")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 221.9257 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MTCK"
 		(shape output)
 		(at 154.94 62.23 0)
@@ -4374,6 +4636,50 @@
 		(uuid "4e9968c6-a004-4388-b178-c151db33c8d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.8842 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENCODER_PWN_J3"
+		(shape input)
+		(at 218.44 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55c80e4f-3dd9-4131-9f47-37ec2758f202")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.5216 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OLED_PINOUT"
+		(shape input)
+		(at 198.12 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "606bb152-1e6f-4a5b-9238-70ef7211091f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.6843 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4799,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 7"
+	(global_label "PIN_3"
 		(shape input)
 		(at 97.79 64.77 180)
 		(fields_autoplaced yes)
@@ -4505,7 +4811,7 @@
 		)
 		(uuid "70f4ab09-d840-4ec2-8449-a449c16ad120")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1524 64.77 0)
+			(at 89.4224 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4843,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 8"
+	(global_label "PIN_4"
 		(shape input)
 		(at 97.79 67.31 180)
 		(fields_autoplaced yes)
@@ -4549,7 +4855,29 @@
 		)
 		(uuid "7a6aa828-f7ef-44ab-9c28-9d7a4004b452")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1524 67.31 0)
+			(at 89.4224 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENCODER_PWN_X"
+		(shape input)
+		(at 214.63 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8028e081-bdbd-45d4-aabb-ae53b09ca768")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.6792 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,6 +4922,50 @@
 		(uuid "80d927c3-9a30-4389-a7a1-cae3b9709f41")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.1374 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO_PWN_X"
+		(shape output)
+		(at 214.63 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86ff6fa9-e24b-44b1-9119-da8b60c18334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.4006 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape bidirectional)
+		(at 208.28 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "893bd2c9-baf1-4396-8bf3-7cd82a4b25c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.6154 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +5041,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 8"
+	(global_label "PIN_4"
 		(shape input)
 		(at 38.1 58.42 0)
 		(fields_autoplaced yes)
@@ -4681,7 +5053,7 @@
 		)
 		(uuid "964da308-c273-4bcd-840d-990050d561ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7376 58.42 0)
+			(at 46.4676 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +5085,29 @@
 			)
 		)
 	)
-	(global_label "GPIO 10"
+	(global_label "SCL"
+		(shape bidirectional)
+		(at 205.74 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b068afc5-858b-4154-8fe3-20c69b71a4f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.1359 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PIN_6"
 		(shape input)
 		(at 38.1 63.5 0)
 		(fields_autoplaced yes)
@@ -4725,7 +5119,7 @@
 		)
 		(uuid "b28b4400-e581-4e00-948b-13387e430b8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.9471 63.5 0)
+			(at 46.4676 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +5129,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 7"
+	(global_label "PIN_3"
 		(shape input)
 		(at 38.1 55.88 0)
 		(fields_autoplaced yes)
@@ -4747,7 +5141,7 @@
 		)
 		(uuid "b391beb0-9663-421e-9e37-822456967e8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7376 55.88 0)
+			(at 46.4676 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +5151,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 10"
+	(global_label "PIN_6"
 		(shape input)
 		(at 97.79 72.39 180)
 		(fields_autoplaced yes)
@@ -4769,7 +5163,7 @@
 		)
 		(uuid "b5e6229c-f0b7-4102-b7e5-79939297ce36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.9429 72.39 0)
+			(at 89.4224 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +5261,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 9"
+	(global_label "PIN_5"
 		(shape input)
 		(at 38.1 60.96 0)
 		(fields_autoplaced yes)
@@ -4879,7 +5273,7 @@
 		)
 		(uuid "e3435159-f10d-4bb2-b11d-7eeec1148b24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7376 60.96 0)
+			(at 46.4676 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +5327,29 @@
 			)
 		)
 	)
-	(global_label "GPIO 4"
+	(global_label "SERVO_PWN_J2"
+		(shape output)
+		(at 219.71 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed8730e7-0e0d-4603-b45e-7afa2a6fd0bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 202.513 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C"
 		(shape input)
 		(at 97.79 57.15 180)
 		(fields_autoplaced yes)
@@ -4945,7 +5361,7 @@
 		)
 		(uuid "efab4925-1f59-4882-aeaf-749081e5b6cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1524 57.15 0)
+			(at 93.5348 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4977,7 +5393,7 @@
 			)
 		)
 	)
-	(global_label "GPIO 5"
+	(global_label "PIN_1"
 		(shape input)
 		(at 97.79 59.69 180)
 		(fields_autoplaced yes)
@@ -4989,7 +5405,7 @@
 		)
 		(uuid "f8c74dd9-aab1-4577-a6ea-0b36e8269a92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1524 59.69 0)
+			(at 89.4224 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5417,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 49.53 44.45 0)
+		(at 49.53 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5010,7 +5426,7 @@
 		(fields_autoplaced yes)
 		(uuid "04ad3a1e-013f-4a84-977c-ce73042ea5b5")
 		(property "Reference" "#PWR033"
-			(at 49.53 48.26 0)
+			(at 49.53 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +5435,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 49.53 39.37 0)
+			(at 49.53 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +5443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 44.45 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 44.45 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +5461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 49.53 44.45 0)
+			(at 49.53 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,82 +5542,6 @@
 			(project ""
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_SL_04")
-		(at 257.81 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1863faae-7dca-4610-b0ac-f8ce09622f10")
-		(property "Reference" "Molex4_1"
-			(at 261.62 40.6399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OLED display"
-			(at 261.62 43.1799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
-			(at 257.81 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 257.81 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f8a316e-77f9-445c-b9cc-3c68a5692844")
-		)
-		(pin "3"
-			(uuid "75b03978-1fa7-4e72-917d-a14baabd77a6")
-		)
-		(pin "4"
-			(uuid "e761ae0c-4d00-4f60-87b8-0d06253be7e4")
-		)
-		(pin "2"
-			(uuid "de3c9c47-aea8-4c06-b725-6b54e85e5917")
-		)
-		(instances
-			(project "MiniRoverBoard"
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "Molex4_1")
 					(unit 1)
 				)
 			)
@@ -5474,6 +5814,73 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 245.11 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ee35de4-9793-4444-8778-654e71cc0770")
+		(property "Reference" "R16"
+			(at 245.11 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 245.364 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.856 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a24c142-a4a5-4be2-a8bc-cf41456e09c2")
+		)
+		(pin "1"
+			(uuid "92a9a469-df8b-44e9-8739-be8d7050606e")
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5754,6 +6161,85 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_05")
+		(at 257.81 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1f810e-4ecf-4b5e-bd25-ca8b36558446")
+		(property "Reference" "Conn1"
+			(at 261.62 41.9099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_05"
+			(at 261.62 44.4499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0af60b14-e133-495d-9845-2d1d6a391c03")
+		)
+		(pin "5"
+			(uuid "81523c02-b475-4f9a-9d0c-12364e327eef")
+		)
+		(pin "2"
+			(uuid "ed400b3e-21f3-43ce-b6d3-9479a05d007f")
+		)
+		(pin "1"
+			(uuid "af2aabec-6ad2-467c-b83d-3402c9c3ca06")
+		)
+		(pin "3"
+			(uuid "68261c15-4514-4cab-bf90-f2550c3ca2e0")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "Conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 43.18 85.09 0)
 		(unit 1)
@@ -5814,6 +6300,73 @@
 			(project ""
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 245.11 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ffd375d-b622-4055-8b78-88b1a83123dd")
+		(property "Reference" "R17"
+			(at 245.11 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 245.364 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.364 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75955e19-4d87-4584-87ab-384054b3f007")
+		)
+		(pin "1"
+			(uuid "de07c97e-b13e-4940-a570-576669a34ea0")
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5891,7 +6444,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 48.26 0)
+		(at 217.17 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5900,7 +6453,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c6f1cc8-beb0-469d-a696-92db8eb3330f")
 		(property "Reference" "#PWR032"
-			(at 251.46 54.61 0)
+			(at 217.17 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +6462,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 53.34 0)
+			(at 217.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5917,7 +6470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 48.26 0)
+			(at 217.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +6479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 48.26 0)
+			(at 217.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5935,7 +6488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 48.26 0)
+			(at 217.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7660,7 +8213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 49.53 0)
+		(at 49.53 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7669,7 +8222,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb6ac886-8afe-4c82-9689-cf0db3cde48c")
 		(property "Reference" "#PWR034"
-			(at 49.53 55.88 0)
+			(at 49.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7678,7 +8231,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 54.61 0)
+			(at 49.53 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +8239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 49.53 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +8248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 49.53 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +8257,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 49.53 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
