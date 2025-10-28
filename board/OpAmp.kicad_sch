@@ -841,8 +841,8 @@
 		)
 	)
 	(rectangle
-		(start 21.59 26.67)
-		(end 72.39 59.69)
+		(start 22.86 15.24)
+		(end 73.66 48.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -887,7 +887,7 @@
 	)
 	(text "Cell_Sensing"
 		(exclude_from_sim no)
-		(at 44.45 32.004 0)
+		(at 45.72 20.574 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1063,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 40.64) (xy 44.45 40.64)
+			(xy 36.83 29.21) (xy 45.72 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1073,7 +1073,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 43.18) (xy 44.45 43.18)
+			(xy 36.83 31.75) (xy 45.72 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1333,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 45.72) (xy 44.45 45.72)
+			(xy 36.83 34.29) (xy 45.72 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +1483,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 50.8) (xy 44.45 48.26)
+			(xy 45.72 39.37) (xy 45.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1533,7 @@
 	)
 	(global_label "CELL1"
 		(shape output)
-		(at 35.56 45.72 180)
+		(at 36.83 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1543,7 +1543,7 @@
 		)
 		(uuid "040d7b3b-00c2-4a94-a189-84496e9cfb8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8901 45.72 0)
+			(at 28.1601 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1555,7 @@
 	)
 	(global_label "CELL3"
 		(shape output)
-		(at 35.56 40.64 180)
+		(at 36.83 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1565,7 +1565,7 @@
 		)
 		(uuid "29e47557-e681-4c23-a784-a30601d38830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8901 40.64 0)
+			(at 28.1601 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 	)
 	(global_label "CELL2"
 		(shape output)
-		(at 35.56 43.18 180)
+		(at 36.83 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1763,7 +1763,7 @@
 		)
 		(uuid "e2ab6344-df93-4fc3-a1d4-419c3af94fef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8901 43.18 0)
+			(at 28.1601 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 50.8 0)
+		(at 45.72 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2499,7 +2499,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d5e92a0-3131-4e64-8698-350d6bd57b72")
 		(property "Reference" "#PWR021"
-			(at 44.45 57.15 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 55.88 0)
+			(at 45.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 50.8 0)
+			(at 45.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 50.8 0)
+			(at 45.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 50.8 0)
+			(at 45.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3281,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_04")
-		(at 49.53 49.53 0)
+		(at 50.8 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3290,7 +3290,7 @@
 		(fields_autoplaced yes)
 		(uuid "a785c369-074e-4991-b697-967be50b5f66")
 		(property "Reference" "Conn4"
-			(at 53.34 43.1799 0)
+			(at 54.61 31.7499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3299,7 +3299,7 @@
 			)
 		)
 		(property "Value" "Molex_SL_04"
-			(at 53.34 45.7199 0)
+			(at 54.61 34.2899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3308,7 +3308,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
-			(at 49.53 49.53 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3317,7 +3317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 49.53 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3326,7 +3326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 49.53 0)
+			(at 50.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
