@@ -6765,7 +6765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Devices:BUZZER_SMI_1324_TW_5V_2_R"
 			(at 46.99 167.64 0)
 			(effects
 				(font
@@ -6901,7 +6901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Horizontal"
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 257.81 46.99 0)
 			(effects
 				(font
@@ -7734,7 +7734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 44.1452 93.98 0)
 			(effects
 				(font
@@ -7936,7 +7936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 266.7 74.93 0)
 			(effects
 				(font
@@ -8012,7 +8012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 264.16 138.43 0)
 			(effects
 				(font
@@ -8154,7 +8154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 165.1 157.48 0)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_09_Horizontal"
 			(at 22.86 50.8 0)
 			(effects
 				(font
@@ -8907,7 +8907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 266.7 109.22 0)
 			(effects
 				(font
@@ -8981,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 118.11 162.56 0)
 			(effects
 				(font
@@ -9132,7 +9132,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 213.36 34.29 0)
 			(effects
 				(font
@@ -9272,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-S2-DEVKITM-1U:XCVR_ESP32-S2-DEVKITM-1U"
+		(property "Footprint" "MRDT_Shields:XCVR_ESP32-S2-DEVKITM-1U"
 			(at 127 64.77 0)
 			(effects
 				(font

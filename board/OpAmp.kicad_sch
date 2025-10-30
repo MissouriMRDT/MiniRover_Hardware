@@ -2068,7 +2068,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 101.6 86.36 0)
 			(effects
 				(font
@@ -2259,7 +2259,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 223.52 123.19 0)
 			(effects
 				(font
@@ -3049,7 +3049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 257.81 118.11 0)
 			(effects
 				(font
@@ -3307,7 +3307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Vertical"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_04_Horizontal"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 175.26 123.19 0)
 			(effects
 				(font
@@ -3505,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 157.48 93.98 0)
 			(effects
 				(font
@@ -3629,7 +3629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 125.73 121.92 0)
 			(effects
 				(font
