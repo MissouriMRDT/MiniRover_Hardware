@@ -7602,7 +7602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Devices:BUZZER_SMI_1324_TW_5V_2_R"
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 48.26 46.99 0)
 			(effects
 				(font
