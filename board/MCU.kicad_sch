@@ -4341,10 +4341,6 @@
 		(uuid "fd658953-10d2-4b9d-bfbe-711aaf00d6e5")
 	)
 	(no_connect
-		(at 123.19 43.18)
-		(uuid "0aebb342-f7f7-4fa7-8820-28f555681742")
-	)
-	(no_connect
 		(at 158.75 83.82)
 		(uuid "13326df5-d521-42cf-8cf5-ac5043a33608")
 	)
@@ -4367,6 +4363,10 @@
 	(no_connect
 		(at 123.19 38.1)
 		(uuid "8e270581-cf5d-4d00-b799-fded90d4760f")
+	)
+	(no_connect
+		(at 158.75 60.96)
+		(uuid "c1edbb1f-625a-4b85-8049-19dc2061036e")
 	)
 	(no_connect
 		(at 212.09 143.51)
@@ -5598,6 +5598,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 43.18) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce704567-a39d-4479-80ea-f7a457762dbd")
+	)
+	(wire
+		(pts
 			(xy 158.75 40.64) (xy 168.91 40.64)
 		)
 		(stroke
@@ -5825,16 +5835,6 @@
 			(type default)
 		)
 		(uuid "f0da08ef-92ee-4baf-9063-a5524d95a8b7")
-	)
-	(wire
-		(pts
-			(xy 168.91 60.96) (xy 158.75 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5b248bd-60f8-4d69-b0f2-ae9688d32117")
 	)
 	(wire
 		(pts
@@ -6594,22 +6594,22 @@
 	)
 	(global_label "Buzzer_Pin"
 		(shape output)
-		(at 168.91 60.96 0)
+		(at 111.76 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "834fc467-1db2-4ab5-90a1-27da73f0b3b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.2366 60.96 0)
+			(at 98.4334 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
