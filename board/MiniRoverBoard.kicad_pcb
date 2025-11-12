@@ -9843,7 +9843,7 @@
 			(effects
 				(font
 					(size 0.635 0.635)
-					(thickness 0.09525)
+					(thickness 0.079375)
 				)
 			)
 		)
@@ -10959,7 +10959,7 @@
 			(effects
 				(font
 					(size 0.635 0.635)
-					(thickness 0.09525)
+					(thickness 0.079375)
 				)
 			)
 		)
@@ -12152,7 +12152,7 @@
 			(effects
 				(font
 					(size 0.635 0.635)
-					(thickness 0.09525)
+					(thickness 0.079375)
 				)
 			)
 		)
@@ -15099,6 +15099,19 @@
 		(layer "Edge.Cuts")
 		(uuid "d4ebd01a-8fb6-4708-8fd0-4cb0417f47b7")
 	)
+	(gr_text "5"
+		(at 75.692 86.106 0)
+		(layer "F.SilkS")
+		(uuid "1705ca88-f144-4805-b0f9-05165c5e89b7")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Servo J2\n"
 		(at 86.36 41.402 270)
 		(layer "F.SilkS")
@@ -15131,7 +15144,7 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.1)
+				(thickness 0.3175)
 			)
 			(justify left bottom)
 		)
@@ -15169,6 +15182,32 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 65.532 86.106 0)
+		(layer "F.SilkS")
+		(uuid "43eae67f-cac2-45ba-a179-8d652ea79fd7")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "6"
+		(at 78.74 86.106 0)
+		(layer "F.SilkS")
+		(uuid "4a00ac86-7c7c-4514-9f2f-94b40061c6fb")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -15223,6 +15262,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "C"
+		(at 62.738 85.852 0)
+		(layer "F.SilkS")
+		(uuid "6e6adf3b-bb6f-42d0-b99e-ceee743f6343")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V\n"
 		(at 117.856 68.326 0)
 		(layer "F.SilkS")
@@ -15264,6 +15316,19 @@
 		(at 87.376 85.852 0)
 		(layer "F.SilkS")
 		(uuid "965c57aa-4a16-4213-b0ec-16ebcccbecf4")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 60.198 85.852 0)
+		(layer "F.SilkS")
+		(uuid "98acb6e1-e6c1-48f8-8e70-df57ab5198f2")
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -15335,8 +15400,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "5V GND Current PWM 1 PWM 2 PWM 3 PWM 4 PWM 5 PWM 6"
-		(at 56.896 85.852 0)
+	(gr_text "5V"
+		(at 57.912 85.852 0)
 		(layer "F.SilkS")
 		(uuid "b8dbd26c-7695-420a-a2ea-3060cc7392b1")
 		(effects
@@ -15381,6 +15446,19 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.09525)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 70.358 86.106 0)
+		(layer "F.SilkS")
+		(uuid "c1a65a4a-aacf-4741-b945-1b57b4ef0653")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -15442,7 +15520,20 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(thickness 0.1)
+				(thickness 0.3175)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 68.072 86.106 0)
+		(layer "F.SilkS")
+		(uuid "e53c2b96-ee72-4314-9781-f9db57a16f12")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -15454,7 +15545,20 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1)
+				(thickness 0.15875)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4"
+		(at 73.152 86.106 0)
+		(layer "F.SilkS")
+		(uuid "ed1ccea4-3aa2-4cef-8cea-07f2b770b450")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
