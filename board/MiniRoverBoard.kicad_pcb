@@ -1337,7 +1337,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
+					(thickness 0.15875)
 				)
 			)
 		)
@@ -3640,7 +3640,7 @@
 			(effects
 				(font
 					(size 0.635 0.635)
-					(thickness 0.09525)
+					(thickness 0.079375)
 				)
 			)
 		)
@@ -4116,7 +4116,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at -2.2352 -1.651 0)
+			(at -1.524 -1.27 0)
 			(layer "F.SilkS")
 			(uuid "2b59a473-0c6e-4865-8ffb-4b106bf1704f")
 			(effects
@@ -5044,7 +5044,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
+					(thickness 0.15875)
 				)
 			)
 		)
@@ -10227,7 +10227,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
+					(thickness 0.15875)
 				)
 			)
 		)
@@ -14811,7 +14811,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
@@ -14823,7 +14823,7 @@
 		(effects
 			(font
 				(size 0.508 0.508)
-				(thickness 0.09525)
+				(thickness 0.1016)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -14848,7 +14848,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
@@ -14936,7 +14936,7 @@
 		(effects
 			(font
 				(size 0.508 0.508)
-				(thickness 0.09525)
+				(thickness 0.1016)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -14955,7 +14955,7 @@
 		)
 	)
 	(gr_text "C"
-		(at 62.738 85.852 0)
+		(at 63.246 86.106 0)
 		(layer "F.SilkS")
 		(uuid "6e6adf3b-bb6f-42d0-b99e-ceee743f6343")
 		(effects
@@ -14986,7 +14986,7 @@
 		(effects
 			(font
 				(size 0.508 0.508)
-				(thickness 0.09525)
+				(thickness 0.1016)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -15018,7 +15018,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 60.198 85.852 0)
+		(at 60.198 86.106 0)
 		(layer "F.SilkS")
 		(uuid "98acb6e1-e6c1-48f8-8e70-df57ab5198f2")
 		(effects
@@ -15037,7 +15037,7 @@
 		(effects
 			(font
 				(size 0.635 0.635)
-				(thickness 0.09525)
+				(thickness 0.079375)
 			)
 			(justify left bottom)
 		)
@@ -15049,7 +15049,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
@@ -15061,7 +15061,7 @@
 		(effects
 			(font
 				(size 0.508 0.508)
-				(thickness 0.09525)
+				(thickness 0.1016)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -15074,7 +15074,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
@@ -15093,7 +15093,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 57.912 85.852 0)
+		(at 57.912 86.106 0)
 		(layer "F.SilkS")
 		(uuid "b8dbd26c-7695-420a-a2ea-3060cc7392b1")
 		(effects
@@ -15137,7 +15137,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.09525)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
@@ -15187,7 +15187,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.09525)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
@@ -15275,7 +15275,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1)
+				(thickness 0.15875)
 			)
 			(justify left bottom)
 		)
