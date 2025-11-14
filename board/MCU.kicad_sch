@@ -7467,6 +7467,76 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 171.45 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "082311d6-7ef0-4e69-80b9-02af7919f00a")
+		(property "Reference" "Conn1"
+			(at 175.26 133.3499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 175.26 135.8899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+			(at 171.45 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b213015-313c-48d6-b894-3421db974d35")
+		)
+		(pin "1"
+			(uuid "f96cff84-11de-483c-987f-6e7b14ce4495")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "Conn1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 170.18 25.4 0)
 		(unit 1)
@@ -10726,76 +10796,6 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:Molex_SL_02")
-		(at 171.45 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef940c16-bb3e-4557-96d1-3eea96f61fcd")
-		(property "Reference" "ESTOP1"
-			(at 175.26 133.3499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Molex_SL_02"
-			(at 175.26 135.8899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
-			(at 171.45 139.7 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 139.7 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a505f455-f193-43a0-b487-b61780af64cb")
-		)
-		(pin "1"
-			(uuid "5da6672e-9fd9-4eef-a336-cb530e62fac2")
-		)
-		(instances
-			(project ""
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "ESTOP1")
 					(unit 1)
 				)
 			)

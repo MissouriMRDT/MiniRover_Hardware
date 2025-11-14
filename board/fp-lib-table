@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "MiniRoverBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/MiniRoverBoard.pretty")(options "")(descr ""))
+  (lib (name "ESP32_Footprint_Lib")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/MiniRover_Hardware/lib/Footprints/ESP32_Footprint_Lib.pretty")(options "")(descr ""))
 )
