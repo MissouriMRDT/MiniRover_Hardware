@@ -935,6 +935,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Connectors:Molex_SL_02"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Conn"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Molex_SL_02"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MOLEX SL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Molex_SL_02_0_1"
+				(rectangle
+					(start 0 5.08)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Molex_SL_02_1_1"
+				(pin input line
+					(at -5.08 3.81 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Connectors:Molex_SL_04"
 			(pin_names
 				(offset 1.016)
@@ -4110,7 +4222,7 @@
 	)
 	(rectangle
 		(start 16.51 113.03)
-		(end 175.26 193.04)
+		(end 148.59 193.04)
 		(stroke
 			(width 0)
 			(type default)
@@ -4341,12 +4453,8 @@
 		(uuid "fd658953-10d2-4b9d-bfbe-711aaf00d6e5")
 	)
 	(no_connect
-		(at 158.75 83.82)
-		(uuid "13326df5-d521-42cf-8cf5-ac5043a33608")
-	)
-	(no_connect
 		(at 123.19 71.12)
-		(uuid "2c627fbf-fd46-483d-9c34-7154bd98eb6a")
+		(uuid "5787b4e9-1114-4525-a67c-65dae6ca2b3f")
 	)
 	(no_connect
 		(at 158.75 45.72)
@@ -4838,6 +4946,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489bad41-338a-4eec-9a12-7e558c126d86")
+	)
+	(wire
+		(pts
 			(xy 170.18 35.56) (xy 158.75 35.56)
 		)
 		(stroke
@@ -4915,6 +5033,16 @@
 			(type default)
 		)
 		(uuid "547ce517-e33f-46a1-bf0f-65cab4472c8b")
+	)
+	(wire
+		(pts
+			(xy 157.48 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "556f5e95-8587-47c9-9f0e-c5c724289d26")
 	)
 	(wire
 		(pts
@@ -5055,6 +5183,16 @@
 			(type default)
 		)
 		(uuid "6da3fce0-4d10-4c44-8eb0-cd7f97d23d51")
+	)
+	(wire
+		(pts
+			(xy 157.48 138.43) (xy 157.48 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5764c7-d5c3-42dd-b9bd-7a5c0097fafb")
 	)
 	(wire
 		(pts
@@ -5378,7 +5516,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 86.36) (xy 163.83 86.36)
+			(xy 158.75 86.36) (xy 168.91 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5625,6 +5763,16 @@
 			(type default)
 		)
 		(uuid "d02cfddc-3386-42c3-8120-300ec34d2556")
+	)
+	(wire
+		(pts
+			(xy 168.91 83.82) (xy 158.75 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04163f1-33d9-45b2-836f-ad3d3d97b092")
 	)
 	(wire
 		(pts
@@ -6396,7 +6544,7 @@
 	)
 	(global_label "TFT_Backlight"
 		(shape output)
-		(at 163.83 86.36 0)
+		(at 168.91 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6406,7 +6554,7 @@
 		)
 		(uuid "6c36501d-2459-414c-a392-14fcbb6a8cf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.636 86.36 0)
+			(at 184.716 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6834,6 +6982,28 @@
 			)
 		)
 	)
+	(global_label "ESTOP_PIN"
+		(shape input)
+		(at 168.91 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2327a89-0dcd-45d8-b8f1-743ad4160060")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.9947 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESC_PWM_6"
 		(shape input)
 		(at 36.83 165.1 0)
@@ -6979,6 +7149,28 @@
 		(uuid "caf259aa-9852-4708-83a2-82131b03ba61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 18.4234 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESTOP_PIN"
+		(shape output)
+		(at 163.83 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1147627-fcad-496c-90e4-aa4e49345b50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.7453 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,6 +8245,72 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eeb86c3-433e-47bb-aa12-b7d9b21c63bf")
+		(property "Reference" "#PWR09"
+			(at 157.48 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b2195e1-daad-456f-a33f-d20df081184e")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10123,10 +10381,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c371e2b9-e028-4f04-aedc-1c430be48544")
 		(property "Reference" "U4"
-			(at 226.695 128.27 0)
+			(at 226.568 127.762 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10469,6 +10726,76 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:Molex_SL_02")
+		(at 171.45 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef940c16-bb3e-4557-96d1-3eea96f61fcd")
+		(property "Reference" "ESTOP1"
+			(at 175.26 133.3499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Molex_SL_02"
+			(at 175.26 135.8899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_02_Vertical"
+			(at 171.45 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 139.7 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a505f455-f193-43a0-b487-b61780af64cb")
+		)
+		(pin "1"
+			(uuid "5da6672e-9fd9-4eef-a336-cb530e62fac2")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "ESTOP1")
 					(unit 1)
 				)
 			)
