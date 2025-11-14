@@ -6014,6 +6014,26 @@
 		)
 		(uuid "ffe41290-27f5-4f42-a112-84171fe9c352")
 	)
+	(label "Battery_In"
+		(at 85.09 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "679ece02-b4fa-4e23-8897-392179c74807")
+	)
+	(label "ESC_Out"
+		(at 87.63 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6edcdc1-0ef8-4ff3-a8f2-6f6426ca27c7")
+	)
 	(global_label "TFT_Backlight"
 		(shape input)
 		(at 208.28 68.58 180)
@@ -7907,6 +7927,83 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 71.12 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29811141-149c-4e2b-b94d-9c23f8a1274a")
+		(property "Reference" "Conn7"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de790ba-bab1-4bea-8bf4-c19d3d8f5760")
+		)
+		(pin "2"
+			(uuid "ae6c0e1d-4b99-4fc8-b9a0-fd62d86910ce")
+		)
+		(pin "3"
+			(uuid "f4701c9b-35c7-486b-b329-5ca43273b620")
+		)
+		(pin "1"
+			(uuid "0c927370-7ac7-4d88-8445-364af56c5c67")
+		)
+		(pin "4"
+			(uuid "70e4822c-9a0e-45d9-ba82-c25b13ed609b")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "Conn7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.18 67.31 0)
 		(unit 1)
@@ -8531,7 +8628,7 @@
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 69.85 177.8 0)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8599,7 +8696,7 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Conn3")
-					(unit 2)
+					(unit 4)
 				)
 			)
 		)
@@ -9196,6 +9293,83 @@
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR032")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 71.12 139.7 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d2a0df3-9449-4777-8993-86c4726046d4")
+		(property "Reference" "Conn7"
+			(at 73.66 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de790ba-bab1-4bea-8bf4-c19d3d8f5760")
+		)
+		(pin "2"
+			(uuid "ae6c0e1d-4b99-4fc8-b9a0-fd62d86910ce")
+		)
+		(pin "3"
+			(uuid "f4701c9b-35c7-486b-b329-5ca43273b620")
+		)
+		(pin "1"
+			(uuid "0c927370-7ac7-4d88-8445-364af56c5c67")
+		)
+		(pin "4"
+			(uuid "70e4822c-9a0e-45d9-ba82-c25b13ed609b")
+		)
+		(instances
+			(project ""
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "Conn7")
+					(unit 4)
 				)
 			)
 		)
@@ -9846,160 +10020,6 @@
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "H3")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 71.12 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "952cc141-b9a9-4c94-8934-442ae7c47830")
-		(property "Reference" "Conn2"
-			(at 73.66 140.97 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "battery->Board"
-			(at 73.66 143.51 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 165.1 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a7f07d55-37a6-41a4-a917-e953568c9bf8")
-		)
-		(pin "1"
-			(uuid "d26e310e-a48f-4f01-8f4a-27635f0f55f3")
-		)
-		(pin "3"
-			(uuid "ca4e8849-b9c6-45b0-9dad-34db269371be")
-		)
-		(pin "2"
-			(uuid "0b7ab0b8-8bc4-4bad-bc80-43a1a3d13649")
-		)
-		(pin "1"
-			(uuid "56d9011e-77c0-4222-8442-d9fda3798aca")
-		)
-		(instances
-			(project "MiniRoverBoard"
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "Conn2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 71.12 139.7 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a0da5b4-3384-437f-8f8d-860714989fae")
-		(property "Reference" "Conn2"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "battery->Board"
-			(at 73.66 132.08 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 67.31 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 153.67 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "a7f07d55-37a6-41a4-a917-e953568c9bfa")
-		)
-		(pin "1"
-			(uuid "d26e310e-a48f-4f01-8f4a-27635f0f55f5")
-		)
-		(pin "3"
-			(uuid "ca4e8849-b9c6-45b0-9dad-34db269371c0")
-		)
-		(pin "2"
-			(uuid "0b7ab0b8-8bc4-4bad-bc80-43a1a3d1364a")
-		)
-		(pin "1"
-			(uuid "56d9011e-77c0-4222-8442-d9fda3798acc")
-		)
-		(instances
-			(project "MiniRoverBoard"
-				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
-					(reference "Conn2")
-					(unit 2)
 				)
 			)
 		)
