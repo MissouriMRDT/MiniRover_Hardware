@@ -1531,6 +1531,16 @@
 		)
 		(uuid "fa852682-ed75-40cc-a6ca-8a5dbd8b9e55")
 	)
+	(label "Rf{slash}R1 = 0.24466666667"
+		(at 191.77 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8411092b-f230-4a50-84fe-c1ad32854725")
+	)
 	(global_label "CELL1"
 		(shape output)
 		(at 36.83 34.29 180)
@@ -1856,7 +1866,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 169.418 138.43 0)
 			(effects
 				(font
@@ -1923,7 +1933,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 119.888 137.16 0)
 			(effects
 				(font
@@ -1991,7 +2001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 141.224 129.54 90)
 			(effects
 				(font
@@ -2181,7 +2191,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 131.064 138.176 0)
 			(effects
 				(font
@@ -2372,7 +2382,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 228.854 139.446 0)
 			(effects
 				(font
@@ -2630,7 +2640,7 @@
 		(dnp no)
 		(uuid "65a3824a-4424-4692-adc9-2070c1c2b840")
 		(property "Reference" "R15"
-			(at 234.9499 130.81 90)
+			(at 232.664 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 239.014 130.81 90)
 			(effects
 				(font
@@ -2838,7 +2848,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 105.156 115.824 0)
 			(effects
 				(font
@@ -2971,7 +2981,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 180.594 139.446 0)
 			(effects
 				(font
@@ -3162,7 +3172,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 217.678 138.43 0)
 			(effects
 				(font
@@ -3229,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 202.946 117.094 0)
 			(effects
 				(font
@@ -3742,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 154.686 117.094 0)
 			(effects
 				(font
@@ -3934,7 +3944,7 @@
 		(dnp no)
 		(uuid "f921921e-2e13-40c8-bd9c-efda2499dd3b")
 		(property "Reference" "R11"
-			(at 186.6899 130.81 90)
+			(at 184.912 130.556 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 190.754 130.81 90)
 			(effects
 				(font
