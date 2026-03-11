@@ -3,4 +3,5 @@
   (lib (name "MiniRoverBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Symbols/MiniRoverBoard.kicad_sym")(options "")(descr ""))
   (lib (name "NCP51313ADR2G")(type "KiCad")(uri "C:/Users/aronc/Downloads/LIB_NCP51313ADR2G/NCP51313ADR2G/KiCad/NCP51313ADR2G.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-S2-DEVKITM-1U")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/MiniRover_Hardware/lib/Symbols/ESP32-S2-DEVKITM-1U.kicad_sym")(options "")(descr ""))
+  (lib (name "Molex_Mega-Fit_76829_Verticle")(type "KiCad")(uri "C:/GitHub/MRDT/Electrical/MiniRover_Hardware/lib/Symbols/Molex_Mega-Fit_76829_Verticle.kicad_sym")(options "")(descr ""))
 )
