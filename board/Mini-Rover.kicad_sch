@@ -1239,7 +1239,7 @@
 			(uuid "1c140b6e-b387-4ff6-83a3-9cfef94488f7")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "#PWR01")
 					(unit 1)
@@ -1305,7 +1305,7 @@
 			(uuid "0ec160ad-4849-49a2-a426-faf01f782deb")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "#PWR03")
 					(unit 1)
@@ -1516,7 +1516,7 @@
 			(uuid "1cb729d8-57d4-44e6-b871-4da1c83e8ccf")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "D2")
 					(unit 1)
@@ -1667,7 +1667,7 @@
 			(uuid "28b47523-3976-4717-b04e-9a9d017a0721")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "D1")
 					(unit 1)
@@ -1733,7 +1733,7 @@
 			(uuid "b3a5c564-bbf4-4449-8fd2-825dcae48e1c")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "#PWR02")
 					(unit 1)
@@ -1803,7 +1803,7 @@
 			(uuid "34c589d8-55f9-4c02-a0e0-a63c15c49065")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "C1")
 					(unit 1)
@@ -1873,7 +1873,7 @@
 			(uuid "2197de95-668f-4bd1-9863-f0461b9d4a5f")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "C2")
 					(unit 1)
@@ -2013,7 +2013,7 @@
 			(uuid "32ada3f1-5168-40be-8073-54d57167fa97")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/fd366cf6-4ba4-4d0b-8257-15ce8ef3829f"
 					(reference "R1")
 					(unit 1)

@@ -724,6 +724,88 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MRDT_Connectors:4_40_Mounting_Hole_Pad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4_40_Mounting_Hole_Pad_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "4_40_Mounting_Hole_Pad_1_1"
+				(pin input line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Connectors:Molex_SL_02"
 			(pin_names
 				(offset 1.016)
@@ -2820,89 +2902,6 @@
 								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -7192,7 +7191,7 @@
 			(uuid "03311c37-10b7-49c8-a4e8-63a0262c8c89")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Conn5")
 					(unit 1)
@@ -7262,7 +7261,7 @@
 			(uuid "f96cff84-11de-483c-987f-6e7b14ce4495")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Conn1")
 					(unit 1)
@@ -7466,7 +7465,7 @@
 			(uuid "febaccbd-64b9-4226-9519-5049eff2d6b7")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR010")
 					(unit 1)
@@ -7536,7 +7535,7 @@
 			(uuid "6eff73e9-112f-4669-84ee-8357edc82a2e")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "C3")
 					(unit 1)
@@ -7612,7 +7611,7 @@
 			(uuid "14225c9d-d592-47a8-8ad0-680102df08e4")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Q2")
 					(unit 1)
@@ -7754,7 +7753,7 @@
 			(uuid "8e3b2315-6fe5-4e8c-9f8d-bf09e5dee68e")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "B1")
 					(unit 1)
@@ -7820,7 +7819,7 @@
 			(uuid "510f4564-1cd5-426d-b9d1-6232d8970cf3")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR020")
 					(unit 1)
@@ -7829,11 +7828,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
 		(at 39.37 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7856,7 +7855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 39.37 99.06 0)
 			(effects
 				(font
@@ -7882,6 +7881,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "06300f45-5267-4c03-9c1f-25bc05617dbc")
 		)
 		(instances
 			(project "MiniRoverBoard"
@@ -8082,7 +8084,7 @@
 			(uuid "3b2195e1-daad-456f-a33f-d20df081184e")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR09")
 					(unit 1)
@@ -8148,7 +8150,7 @@
 			(uuid "17bdb9c6-17f8-4cd6-a29b-1b39c7548b49")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR015")
 					(unit 1)
@@ -8157,17 +8159,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 20.32 91.44 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 20.32 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bd82746-5187-4979-9b7f-78d8adc2b7e4")
 		(property "Reference" "H1"
-			(at 22.86 90.1699 0)
+			(at 22.86 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8178,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 22.86 92.7099 0)
+			(at 22.86 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8184,8 +8186,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
-			(at 20.32 91.44 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+			(at 20.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 91.44 0)
+			(at 20.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8205,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 20.32 91.44 0)
+			(at 20.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8211,10 +8213,79 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "30ef2d84-11a3-4988-8c73-8126dce28dcd")
+		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5efe7615-ea35-4c92-904a-f3b0bbfddecd")
+		(property "Reference" "#PWR039"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "151f13c9-98ad-474a-8c16-2eed3b4c67d7")
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8278,7 +8349,7 @@
 			(uuid "0007ae21-66fc-4f61-9da4-315c9fd4e4a9")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR027")
 					(unit 1)
@@ -8475,7 +8546,7 @@
 			(uuid "103097d9-63e2-4cb3-b95a-11e053822ba7")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR011")
 					(unit 1)
@@ -8547,7 +8618,7 @@
 			(uuid "fe4e3e0a-c923-4214-8531-aa46289fa690")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "D3")
 					(unit 1)
@@ -8679,9 +8750,75 @@
 			(uuid "f54fe423-ba59-4491-8f43-de06253bf070")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "712ae077-3701-4650-bad3-052c273456ec")
+		(property "Reference" "#PWR041"
+			(at 20.32 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07109559-813c-4a89-af5d-2582c5b8fdaf")
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8814,7 +8951,7 @@
 			(uuid "7efee131-4d3b-4138-b5a5-80a58b502f8d")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "C5")
 					(unit 1)
@@ -8905,7 +9042,7 @@
 			(uuid "02b65830-1fbe-46ab-a414-0c843bebd408")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Conn2")
 					(unit 1)
@@ -8914,17 +9051,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 39.37 91.44 0)
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
+		(at 39.37 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a6e12d1-c438-4702-babd-d556c0cc9046")
 		(property "Reference" "H2"
-			(at 41.91 90.1699 0)
+			(at 41.91 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8933,7 +9070,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 41.91 92.7099 0)
+			(at 41.91 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8941,8 +9078,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
-			(at 39.37 91.44 0)
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +9088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 91.44 0)
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,13 +9097,16 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 39.37 91.44 0)
+			(at 39.37 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "3b873bad-ca8b-4683-ad77-8ee8b8a5a8d1")
 		)
 		(instances
 			(project "MiniRoverBoard"
@@ -9135,7 +9275,7 @@
 			(uuid "60ade1f6-4c84-419b-b79d-b059fa880bf6")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Q1")
 					(unit 1)
@@ -9205,7 +9345,7 @@
 			(uuid "4bc98589-baee-444f-8d28-30a8f8448697")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "R3")
 					(unit 1)
@@ -9214,11 +9354,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "MRDT_Connectors:4_40_Mounting_Hole_Pad")
 		(at 20.32 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9241,7 +9381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole"
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Pad_Via"
 			(at 20.32 99.06 0)
 			(effects
 				(font
@@ -9267,6 +9407,9 @@
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "5a4e3653-a3bb-4750-8849-b7eb0ec53d17")
 		)
 		(instances
 			(project "MiniRoverBoard"
@@ -9429,7 +9572,7 @@
 			(uuid "7ce1758d-dc12-49cf-abab-70788ec9974e")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "MOSFET3")
 					(unit 1)
@@ -9495,7 +9638,7 @@
 			(uuid "e1ec8e12-692e-4cdf-9c08-7ed6a71eed8f")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR035")
 					(unit 1)
@@ -9632,7 +9775,7 @@
 			(uuid "970db14f-d6c7-438c-a404-65475f3a642e")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "J2")
 					(unit 1)
@@ -9714,7 +9857,7 @@
 			(uuid "f9f3be1d-56aa-4824-8331-152d0657b614")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "U4")
 					(unit 1)
@@ -9783,6 +9926,72 @@
 			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c55de005-0335-410b-89da-f201f4a3a62b")
+		(property "Reference" "#PWR042"
+			(at 39.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc890627-4889-4d65-a4b5-0490a6b8a334")
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9923,6 +10132,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 20.32 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbb30c94-8d12-4d52-b62a-fa4d2ec5481a")
+		(property "Reference" "#PWR033"
+			(at 20.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a43f97-cd2b-4f08-a9c4-39d61c752219")
+		)
+		(instances
+			(project "MiniRoverBoard"
+				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 213.36 34.29 180)
 		(unit 1)
@@ -9990,7 +10265,7 @@
 			(uuid "ad425b9a-66bf-43bf-add7-91788a8d0e6f")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "J1")
 					(unit 1)
@@ -10355,7 +10630,7 @@
 			(uuid "f52be985-fb2f-404b-a130-9d6e4a990cc6")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "U7")
 					(unit 1)
@@ -10506,7 +10781,7 @@
 			(uuid "74acaee1-bb75-49be-ab6c-d55247552b42")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/790be9a8-4a0a-446c-a87f-40bdf4df72de"
 					(reference "Conn3")
 					(unit 1)

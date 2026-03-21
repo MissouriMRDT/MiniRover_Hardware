@@ -1965,7 +1965,7 @@
 			(uuid "0a9130bc-ead1-4163-8440-2f4dd92142d4")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "R4")
 					(unit 1)
@@ -2156,7 +2156,7 @@
 			(uuid "1e43095f-02e9-4ac8-84ac-54014355f516")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "U3")
 					(unit 3)
@@ -2347,7 +2347,7 @@
 			(uuid "bd223776-5569-4434-8b32-fedd08f106ef")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "U8")
 					(unit 1)
@@ -2546,7 +2546,7 @@
 			(uuid "33d73d2d-ab73-4031-9f9b-a0163e040df2")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "#PWR021")
 					(unit 1)
@@ -3137,7 +3137,7 @@
 			(uuid "bd223776-5569-4434-8b32-fedd08f106f0")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "U8")
 					(unit 2)
@@ -3347,7 +3347,7 @@
 			(uuid "72878ebb-c5d6-4e99-9014-3034b2f82eb8")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "Conn4")
 					(unit 1)
@@ -3471,7 +3471,7 @@
 			(uuid "1e43095f-02e9-4ac8-84ac-54014355f517")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "U3")
 					(unit 2)
@@ -3593,7 +3593,7 @@
 			(uuid "bd223776-5569-4434-8b32-fedd08f106f1")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "U8")
 					(unit 3)
@@ -3717,7 +3717,7 @@
 			(uuid "1e43095f-02e9-4ac8-84ac-54014355f518")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "U3")
 					(unit 1)
@@ -3916,7 +3916,7 @@
 			(uuid "7a63e649-f9ba-4969-81b1-dd44f763de9a")
 		)
 		(instances
-			(project ""
+			(project "MiniRoverBoard"
 				(path "/fbd9c71c-f200-4aab-a303-9f269bc9de13/00110569-a72a-472d-86d3-551dc58f7e96"
 					(reference "#PWR012")
 					(unit 1)
