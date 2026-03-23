@@ -506,7 +506,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "MiniRover_Gerbs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "MiniRoverBoard.step",
