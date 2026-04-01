@@ -1856,7 +1856,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 169.418 138.43 0)
 			(effects
 				(font
@@ -1923,7 +1923,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 119.888 137.16 0)
 			(effects
 				(font
@@ -1991,7 +1991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 141.224 129.54 90)
 			(effects
 				(font
@@ -2181,7 +2181,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 131.064 138.176 0)
 			(effects
 				(font
@@ -2372,7 +2372,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 228.854 139.446 0)
 			(effects
 				(font
@@ -2638,7 +2638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 239.014 130.81 90)
 			(effects
 				(font
@@ -2838,7 +2838,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 105.156 115.824 0)
 			(effects
 				(font
@@ -2971,7 +2971,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 180.594 139.446 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "150k"
 			(at 217.678 138.43 0)
 			(effects
 				(font
@@ -3229,7 +3229,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 202.946 117.094 0)
 			(effects
 				(font
@@ -3742,7 +3742,7 @@
 				)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 154.686 117.094 0)
 			(effects
 				(font
@@ -3942,7 +3942,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "36.5k"
 			(at 190.754 130.81 90)
 			(effects
 				(font
