@@ -6446,7 +6446,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/24/49/infineon-irfb7545-datasheet-en.pdf?fileId=5546d462533600a401535619e1ca1e66"
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/non-assigned/49/infineon-ipd090n03lg-ds-en.pdf?fileId=db3a304327b897500127d89522867181"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
